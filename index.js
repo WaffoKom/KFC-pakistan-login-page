@@ -7,7 +7,7 @@ phoneInput.addEventListener('input',()=>{
     // Regular expression for pakistans number phones
      const regex = /^(\+92|0)\d{9}$/;
      if(!regex.test(pakistanTel)){
-        pakistanTel.setCustomValidity("")
+        pakistanTel.setCustomValidity("The number phone must be pakistan")
      }else{
         phoneInput.setCustomValidity("")
      }
