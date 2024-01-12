@@ -1,0 +1,165 @@
+*{
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+
+}
+
+html{
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color:black;
+}
+
+.form-content{
+  background-color:#1C1816;
+  display: flex;
+  flex-direction: row;
+  height: 35rem;
+  border-radius: 1rem;
+}
+.left-form{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40rem;
+  border-top-left-radius:.5rem;
+  border-bottom-left-radius: .5rem;
+  position: relative;
+}
+/* .top-left-button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6rem;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  
+
+} */
+
+.sanders-image{
+  height: 35rem;
+}
+
+.right-form{
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  box-shadow: 1rem 1rem ;
+  padding-left: 5rem;
+}
+
+
+.manual-login{
+  background-color: #52121C;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  text-decoration: none;
+  width: 30rem;
+  border-radius: .5rem;
+  color: white;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: .5rem;
+  
+}
+
+.login-google{
+  background-color: red;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  width: 30rem;
+  border-radius: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.title-form{
+  font: 700;
+  font-size: xx-large;
+  color: white;
+  display: flex;
+  align-self: flex-start;
+
+}
+.phone-input-container{
+position: relative;
+align-items: center;
+display: flex;
+}
+.country-code{
+  color: white;
+  font-size: large;
+  font-style: normal;
+  font-weight: 500;
+  position: absolute;
+  bottom: .8rem;
+  left: .8rem;
+  display: flex;
+  flex-direction: row;
+}
+.vertical-bar{
+  width: .2rem;
+  height: 2.4rem;
+  background-color: white;
+  margin-left: 4rem;
+  position: absolute;
+}
+.country-number-prototype{
+  color: white;
+  font-size: small;
+  font-style: normal;
+  font-weight: 200;
+  position: absolute;
+  top: .8rem;
+  left: .8rem;
+}
+
+#tel-pakistan{
+  font-style: none;
+  padding-top: 4rem;
+  padding-bottom: .6rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  text-decoration: none;
+  width: 30rem;
+  background-color:#262221 ;
+  padding-left: 5.7rem;
+  color: white;
+  font-size: large;
+}
+#tel-pakistan:focus{
+outline: none;
+border-bottom-width: .2rem;
+border-bottom-color:#52121C;
+}
+#tel-pakistan:hover{
+  border-bottom-width: .2rem;
+  border-bottom-color:white;
+}
